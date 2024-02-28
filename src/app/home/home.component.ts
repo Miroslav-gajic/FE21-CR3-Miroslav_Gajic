@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { data } from '../data';
+import { IData } from '../IData';
 
 @Component({
   selector: 'app-home',
@@ -7,8 +8,8 @@ import { data } from '../data';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  produkte: {}[] = data;
-  
+  produkte: IData[] = data;
+
 
 
 }
